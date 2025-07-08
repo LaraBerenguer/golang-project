@@ -1,9 +1,11 @@
 package main //main go package
 
-import (
-	"fmt" //different modules that affect our script. fmt is used as an exit function
-)
+import "fmt"
+
+var g = "global"
 
 func main() {
-	fmt.Println("Hello World!")
+	l := "local"
+	fmt.Println(l)
+	fmt.Println(g)
 }
