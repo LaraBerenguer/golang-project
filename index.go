@@ -2,9 +2,9 @@ package main
 
 import "fmt"
 
+const ACADEMY = "Cibernarium"
+
 func main() {
-	var name string
-	name = "Lara"
-	age := 31
-	fmt.Println("My name is", name, "and I'm", age, "years old")
+	text := "I'm studying at" + ACADEMY
+	fmt.Println(text)
 }
