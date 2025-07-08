@@ -1,11 +1,10 @@
-package main //main go package
+package main
 
 import "fmt"
 
-var g = "global"
-
 func main() {
-	l := "local"
-	fmt.Println(l)
-	fmt.Println(g)
+	var name string
+	name = "Lara"
+	age := 31
+	fmt.Println("My name is", name, "and I'm", age, "years old")
 }
